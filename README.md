@@ -13,3 +13,6 @@ $$
 $$
 k(x , x^{\prime}) = \theta_1 \exp{\left( - \frac{(x - x^{\prime})^2}{\theta_2} \right)} + \theta_3 \delta(x , x^{\prime}) + \theta_4 \min{\{x , x^{\prime}\}}
 $$
+
+## Gaussian_Process_Chapter3.ipynbについて
+教科書の図を再現したコードです．教科書のイメージがつかない方は参考にしてください．
