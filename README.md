@@ -16,7 +16,7 @@ $$k(x , x^{'}) = \theta_1 \exp{\left( - \frac{(x - x^{'})^2}{\theta_2} \right)} 
 $$[K]_{ij} = \theta_1 \exp{\left( - \frac{(x_i - x_j)^2}{\theta_2} \right)} + \theta_3 \delta(x_i , x_j)$$
 ### 予測分布の計算
 テストデータを用いて，各説明変数における目的変数の分布を計算します．
-$$p(y^{*} | \vec{x}^{*} ,\mathcal{D}) = \mathcal{N} (\textbf{k}^{\top}_* K^{-1} \vec{y} , \textbf{k}_{**} - \textbf{k}^{\top}_* K^{-1} \textbf{k}_*)$$
+$$p(y^* | \vec{x}^* ,\mathcal{D}) = \mathcal{N} (\textbf{k}^{\top}_* K^{-1} \vec{y} , \textbf{k}_{**} - \textbf{k}^{\top}_* K^{-1} \textbf{k}_*)$$
 ### 予測分布の可視化
 各点にガウス分布を定義できたら，それを可視化しました．可視化したのは期待値と標準偏差を2倍した範囲です．
 ## 実装したカーネル
