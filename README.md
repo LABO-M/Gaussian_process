@@ -10,7 +10,7 @@
 ## ガウス過程回帰の流れ
 ### カーネルの定義
 まずはカーネルの定義です．このカーネルを持ったガウス過程を我々はモデル化します．
-`$k(x , x^{'}) = \theta_1 \exp{\left( - \frac{(x - x^{'})^2}{\theta_2} \right)} + \theta_3 \delta(x , x^{'})$`
+$$k(x , x^{'}) = \theta_1 \exp{\left( - \frac{(x - x^{'})^2}{\theta_2} \right)} + \theta_3 \delta(x , x^{'})$$
 ### 訓練データからカーネルを計算
 モデル化したカーネルを使い，訓練データを用いてフィッティングします．
 `$[K]_{ij} = \theta_1 \exp{\left( - \frac{(x_i - x_j)^2}{\theta_2} \right)} + \theta_3 \delta(x_i , x_j)$`
