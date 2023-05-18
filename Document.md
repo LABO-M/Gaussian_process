@@ -81,7 +81,6 @@ $$
 ・\\
 \vec{\phi}(x_{N_{train}})  \\
 \end{pmatrix} 
-\ 
 $$
 
 このとき，$\Phi$の形状を求めよ．
