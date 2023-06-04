@@ -3,6 +3,31 @@
 
 ガウス過程を使いたいときは参考程度にしてみてください．
 
+## jupyterhubで動かす準備
+### gitコードを新規でダウンロード
+jupyterhubを開く．
+
+新規を押す．
+
+端末を開く．
+
+```
+$ git clone https://github.com/LABO-M/Gaussian_process.git
+```
+
+を入力してEnterを押す．
+
+ディレクトリが入っているか確認．
+### gitコードの更新
+jupyterhubを開く．
+
+端末を開く．
+
+```
+$ git pull origin main
+```
+
+
 # Gaussian_Process.ipynbについて
 ガウス過程回帰を実装してみたファイルになります．
 
