@@ -52,4 +52,7 @@ $$k(x , x^{\prime}) = \theta_1 \exp{\left( - \frac{(x - x^{\prime})^2}{\theta_2}
 $$k(x , x^{\prime}) = \theta_1 \exp{\left( - \frac{(x - x^{\prime})^2}{\theta_2} \right)} + \theta_3 \delta(x , x^{\prime}) + \theta_4 \min{\{x , x^{\prime}\}}$$
 とカーネルをモデル化しました．
 # Gaussian_Process_Chapter3.ipynbについて
-教科書の図を再現したコードです．教科書のイメージがつかない方は参考にしてください．（だいぶ途中）
+教科書の図を再現したコードです．教科書のイメージがつかない方は参考にしてください．
+
+# Gaussian_Process_Chapter4.ipynbについて
+ガウス過程と生成モデルに関連する内容が記載されています．
