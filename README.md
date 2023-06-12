@@ -1,10 +1,10 @@
-# Gaussian_process
+# gaussian-process
 ガウス過程と機械学習に関するコードです．
 
 ガウス過程を使いたいときは参考程度にしてみてください．
 
 ## jupyterhubで動かす準備
-### gitコードを新規でダウンロード
+### GitHubリポジトリを新規でダウンロード
 jupyterhubを開く．
 
 新規を押す．
@@ -12,21 +12,41 @@ jupyterhubを開く．
 端末を開く．
 
 ```
-$ git clone https://github.com/LABO-M/Gaussian_process.git
+$ git clone https://github.com/LABO-M/gaussian-process.git
 ```
 
 を入力してEnterを押す．
 
 ディレクトリが入っているか確認．
-### gitコードの更新
+### ローカルリポジトリの更新
+手元にあるソースコードを更新したい場合は、以下の手順を行う。
+
 jupyterhubを開く．
 
-端末を開く．
+「新規」ボタンから端末を開く．
 
 ```
+$ cd gaussian-process
 $ git pull origin main
 ```
+### ローカルリポジトリが更新されないとき
+手元のコードの追加や変更をした場合、上記の方法ではリポジトリの更新ができず、以下のエラーが発生する。
+```
+error: Your local changes to the following files would be overwritten by merge:
+        変更を行ったファイル名
+Please commit your changes or stash them before you merge.
+```
+このエラーが表示されている場合は、以下の手順を行う。
 
+jupyterhubを開く．
+
+「新規」ボタンから端末を開く．
+
+```
+$ cd gaussian-process
+$ git fetch origin main
+$ git reset --hard origin/main
+```
 
 # Gaussian_Process.ipynbについて
 ガウス過程回帰を実装してみたファイルになります．
